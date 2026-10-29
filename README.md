@@ -246,9 +246,3 @@ ALTER TABLE frequencia
   ADD CONSTRAINT fk_freq_aluno      FOREIGN KEY (id_aluno)      REFERENCES alunos (id_aluno),
   ADD CONSTRAINT fk_freq_disciplina FOREIGN KEY (id_disciplina) REFERENCES disciplinas (id_disciplina);
 ```
-
-## 📜 Licença
-
-<!-- Escolha uma licença (por exemplo MIT), adicione o arquivo LICENSE e atualize esta seção. -->
-
-Defina a licença do projeto antes de publicá-lo.
